@@ -1,0 +1,31 @@
+{
+  "name": "disposable-event",
+  "version": "1.0.0",
+  "description": "Events from all over the messy world, streamlined!",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "ucompiler-plugin-babel": "^3.1.1",
+    "babel-preset-steelbrain": "^1.0.1",
+    "babel-preset-steelbrain-flow": "^1.0.1"
+  },
+  "dependencies": {
+    "sb-event-kit": "^1.1.2"
+  },
+  "scripts": {
+    "test": "apm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steelbrain/disposable-event.git"
+  },
+  "keywords": [
+    "event",
+    "disposable"
+  ],
+  "author": "steelbrain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steelbrain/disposable-event/issues"
+  },
+  "homepage": "https://github.com/steelbrain/disposable-event"
+}
