@@ -13,7 +13,8 @@
     "sb-event-kit": "^1.1.2"
   },
   "scripts": {
-    "test": "apm test"
+    "test": "apm test",
+    "compile": "ucompiler go"
   },
   "repository": {
     "type": "git",
