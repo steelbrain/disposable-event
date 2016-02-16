@@ -4,6 +4,7 @@
   "description": "Events from all over the messy world, streamlined!",
   "main": "lib/index.js",
   "devDependencies": {
+    "ucompiler": "^3.1.7",
     "ucompiler-plugin-babel": "^3.1.1",
     "babel-preset-steelbrain": "^1.0.1",
     "babel-preset-steelbrain-flow": "^1.0.1"
