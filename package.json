@@ -9,7 +9,7 @@
     "babel-preset-steelbrain": "^4.0.0"
   },
   "dependencies": {
-    "sb-event-kit": "^2.0.0"
+    "sb-event-kit": "^3.0.0"
   },
   "scripts": {
     "test": "apm test",
