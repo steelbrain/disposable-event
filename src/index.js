@@ -1,10 +1,8 @@
-'use strict'
-
 /* @flow */
 
-import {Disposable} from 'sb-event-kit'
+import { Disposable } from 'sb-event-kit'
 
-module.exports = function disposableEvent(target: Object, eventName: string, callback: Function): Disposable {
+function disposableEvent(target: Object, eventName: string, callback: Function): Disposable {
   if (target.on) {
     target.on(eventName, callback)
   } else if (target.addListener) {
@@ -26,3 +24,5 @@ module.exports = function disposableEvent(target: Object, eventName: string, cal
     }
   })
 }
+
+module.exports = disposableEvent

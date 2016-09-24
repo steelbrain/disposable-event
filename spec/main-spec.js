@@ -1,8 +1,8 @@
-'use babel'
+/* @flow */
 
-import {EventEmitter} from 'events'
-import {CompositeDisposable} from 'sb-event-kit'
-import disposableEvent from '..'
+import EventEmitter from 'events'
+import { CompositeDisposable } from 'sb-event-kit'
+import disposableEvent from '../src'
 
 describe('disposableEvent', function() {
   it('works well with addEventListener/removeEventListener', function() {
@@ -22,6 +22,7 @@ describe('disposableEvent', function() {
     element.dispatchEvent(new MouseEvent('mousemove'))
     expect(called).toBe(2)
   })
+
   it('works well with node\'s event emitter', function() {
     let called = 0
     const emitter = new EventEmitter()
