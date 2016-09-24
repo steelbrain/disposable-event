@@ -4,16 +4,19 @@
   "description": "Events from all over the messy world, streamlined!",
   "main": "lib/index.js",
   "devDependencies": {
-    "ucompiler": "^3.1.7",
-    "ucompiler-plugin-babel": "^3.1.1",
-    "babel-preset-steelbrain": "^4.0.0"
+    "babel-cli": "^6.10.1",
+    "babel-preset-steelbrain": "^4.0.1",
+    "eslint-config-steelbrain": "^2.0.0",
+    "flow-bin": "^0.32.0"
   },
   "dependencies": {
     "sb-event-kit": "^2.0.0"
   },
   "scripts": {
-    "test": "apm test",
-    "compile": "ucompiler go"
+    "test": "(apm test) && (flow check) && (eslint . )",
+    "clean": "rm -rf lib",
+    "compile": "npm run clean && babel src --out-dir lib",
+    "watch": "npm run compile -- -w"
   },
   "repository": {
     "type": "git",

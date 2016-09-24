@@ -1,4 +1,6 @@
-#### 1.0.1
+# CHANGELOG
+
+#### 2.0.0
 
 - Upgrade to `sb-event-kit`@`2.0.0`
 
