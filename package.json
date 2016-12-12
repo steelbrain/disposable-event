@@ -7,7 +7,7 @@
     "babel-cli": "^6.10.1",
     "babel-preset-steelbrain": "^4.0.1",
     "eslint-config-steelbrain": "^2.0.0",
-    "flow-bin": "^0.32.0"
+    "flow-bin": "^0.37.0"
   },
   "dependencies": {
     "sb-event-kit": "^2.0.0"
