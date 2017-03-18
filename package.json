@@ -10,7 +10,7 @@
     "flow-bin": "^0.42.0"
   },
   "dependencies": {
-    "sb-event-kit": "^2.0.0"
+    "sb-event-kit": "^3.0.0"
   },
   "scripts": {
     "test": "(apm test) && (flow check) && (eslint . )",
