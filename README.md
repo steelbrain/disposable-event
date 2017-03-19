@@ -1,5 +1,7 @@
 # Disposable-Event
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/steelbrain/disposable-event.svg)](https://greenkeeper.io/)
+
 `disposable-event` is an npm module built to normalize event registration and disposal. We have often dealt with situations where there are inconsistent ways to add or remove event listeners in different APIs, `disposable-event` normalizes them all and gives authors a beautiful API
 
 ## Installation
