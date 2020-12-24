@@ -13,7 +13,7 @@ npm install --save disposable-event
 ## API
 
 ```
-function disposableEvent(target, eventName, callback): Disposable
+function disposableEvent(target, eventName, callback, options): Disposable
 ```
 
 ## Usage
