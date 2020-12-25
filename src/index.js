@@ -2,13 +2,13 @@
 
 import { Disposable } from 'sb-event-kit'
 
-function disposableEvent(target: Object, eventName: string, callback: Function): Disposable {
+function disposableEvent(target: Object, eventName: string, callback: Function, options:? Object): Disposable {
   if (target.on) {
-    target.on(eventName, callback)
+    target.on(eventName, callback, options)
   } else if (target.addListener) {
-    target.addListener(eventName, callback)
+    target.addListener(eventName, callback, options)
   } else if (target.addEventListener) {
-    target.addEventListener(eventName, callback)
+    target.addEventListener(eventName, callback, options)
   } else {
     throw new Error('Unknown event emitter')
   }
