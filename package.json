@@ -12,6 +12,9 @@
   "dependencies": {
     "sb-event-kit": "^3.0.0"
   },
+  "files": [
+    "lib/*"
+  ],
   "scripts": {
     "test": "(apm test) && (flow check) && (eslint . )",
     "clean": "rm -rf lib",
