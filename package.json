@@ -1,6 +1,6 @@
 {
   "name": "disposable-event",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Events from all over the messy world, streamlined!",
   "main": "lib/index.js",
   "types": "src/index.d.ts",
