@@ -1,6 +1,6 @@
 /* @flow */
 
-import { Disposable } from 'sb-event-kit'
+import { Disposable } from 'event-kit'
 
 function disposableEvent(target: Object, eventName: string, callback: Function, options:? Object): Disposable {
   if (target.on) {

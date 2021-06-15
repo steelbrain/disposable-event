@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Events from all over the messy world, streamlined!",
   "main": "lib/index.js",
+  "types": "src/index.d.ts",
   "devDependencies": {
     "babel-cli": "^6.10.1",
     "babel-preset-steelbrain": "^5.0.0",
@@ -10,10 +11,14 @@
     "flow-bin": "^0.46.0"
   },
   "dependencies": {
-    "sb-event-kit": "^3.0.0"
+    "event-kit": "^2.5.3"
+  },
+  "optionalDependencies": {
+    "@types/event-kit": "^2.4.0"
   },
   "files": [
-    "lib/*"
+    "lib/*",
+    "src/*"
   ],
   "scripts": {
     "test": "(apm test) && (flow check) && (eslint . )",
